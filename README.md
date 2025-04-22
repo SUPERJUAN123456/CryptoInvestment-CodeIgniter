@@ -1,4 +1,7 @@
 # 💸 CryptoInvestment – Seguimiento de Criptomonedas en Tiempo Real
+# https://github.com/SUPERJUAN123456/CryptoInvestment-CodeIgniter
+# https://github.com/SUPERJUAN123456/CryptoInvestment-CodeIgniter
+# https://github.com/SUPERJUAN123456/CryptoInvestment-CodeIgniter
 
 Aplicación web que permite visualizar y analizar en tiempo real el comportamiento de las principales criptomonedas del mercado utilizando la API de CoinMarketCap. Migrado completamente a CodeIgniter 4 con interfaz moderna, funcionalidad completa y visualización con Chart.js.
 

@@ -25,11 +25,11 @@ Crear una aplicación web que permita visualizar en tiempo real la información 
 
 | Código | Descripción |
 |--------|-------------|
-| RNF1 | La interfaz debe ser responsive y amigable |
-| RNF2 | Los datos deben actualizarse automáticamente sin recargar la página |
-| RNF3 | El sistema debe estar estructurado con un framework PHP (CodeIgniter) |
-| RNF4 | El tiempo de respuesta al actualizar datos debe ser menor a 3 segundos |
-| RNF5 | El sistema debe poder correr localmente bajo XAMPP |
+| RNF1   | La interfaz debe ser responsive y amigable |
+| RNF2   | Los datos deben actualizarse automáticamente sin recargar la página |
+| RNF3   | El sistema debe estar estructurado con un framework PHP (CodeIgniter) |
+| RNF4   | El tiempo de respuesta al actualizar datos debe ser menor a 3 segundos |
+| RNF5   | El sistema debe poder correr localmente bajo XAMPP |
 
 ---
 
@@ -41,16 +41,16 @@ Crear una aplicación web que permita visualizar en tiempo real la información 
 - `/v1/cryptocurrency/listings/latest`
 - `/v1/cryptocurrency/info`
 
-**Datos capturados para cada criptomoneda:**
+**Datos capturados para cada criptomoneda:** (crypto_db)
 
-| Campo | Descripción |
-|-------|-------------|
-| name | Nombre completo de la criptomoneda |
-| symbol | Símbolo corto (BTC, ETH, etc.) |
-| price | Precio en USD |
-| market_cap | Capitalización de mercado |
-| percent_change_24h | Variación porcentual en 24h |
-| logo | URL del logo |
+| Campo               | Descripción |
+|---------------------|-------------|
+| name                | Nombre completo de la criptomoneda |
+| symbol              | Símbolo corto (BTC, ETH, etc.)     |
+| price               | Precio en USD                      |
+| market_cap          | Capitalización de mercado          |
+| percent_change_24h  | Variación porcentual en 24h        |
+| logo                | URL del logo                       |
 
 ### 2. Base de datos MySQL
 

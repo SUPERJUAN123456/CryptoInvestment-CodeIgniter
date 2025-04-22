@@ -52,7 +52,8 @@ thead {
     color: #f1f5f9;
 }
 
-th, td {
+th,
+td {
     padding: 0.8rem;
     border-bottom: 1px solid #475569;
 }
@@ -101,7 +102,8 @@ button:hover {
         width: 90%;
     }
 
-    th, td {
+    th,
+    td {
         padding: 0.6rem;
         font-size: 0.9rem;
     }
@@ -122,14 +124,19 @@ button:hover {
     .price-down {
         color: #ef4444;
     }
-        
+
     .row-updated {
         animation: flashUpdate 0.4s;
     }
-    
+
     @keyframes flashUpdate {
-        from { background-color: #0ea5e9; }
-        to { background-color: inherit; }
+        from {
+            background-color: #0ea5e9;
+        }
+
+        to {
+            background-color: inherit;
+        }
     }
-    
+
 }
